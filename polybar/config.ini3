@@ -1,0 +1,8 @@
+[bar/example]
+monitor = ${env:MONITOR:}
+font-0 = "Noto Sans:size=11;1"
+modules-right = date
+
+[module/date]
+type = internal/date
+date = %Y-%m-%d%
